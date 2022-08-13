@@ -1,0 +1,16 @@
+{
+  "name": "reusableComponentA",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/martingenchev/ReusableComponentA.git",
+  "author": "Martin Genchev",
+  "license": "MIT",
+  "main": "src/modules.js",
+  "scripts": {
+    "postinstall": "yarn link && yarn link componentA",
+    "dev": "yarn nuxt dev examples/with-nuxt"
+  },
+  "devDependencies": {
+    "nuxt": "^2.14.1"
+  }
+}
