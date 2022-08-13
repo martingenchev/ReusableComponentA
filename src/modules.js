@@ -12,7 +12,7 @@ export default function () {
         // Add ./components dir to the list
         dirs.push({
             path: join(__dirname, "../src/components"),
-            prefix: "kru",
+            prefix: "mg",
         });
     });
 }
