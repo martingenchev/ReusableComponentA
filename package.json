@@ -1,7 +1,7 @@
 {
   "name": "mg-reusable-component",
   "version": "1.0.1",
-  "repository": "https://github.com/martingenchev/ReusableComponentA.git",
+  "repository": "https://github.com/martingenchev/mg-reusable-component.git",
   "author": "Martin Genchev",
   "license": "MIT",
   "main": "src/modules.js",
