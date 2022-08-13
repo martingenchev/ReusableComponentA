@@ -1,7 +1,6 @@
 {
-  "name": "reusableComponentA",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "mg-reusable-component",
+  "version": "1.0.1",
   "repository": "https://github.com/martingenchev/ReusableComponentA.git",
   "author": "Martin Genchev",
   "license": "MIT",
