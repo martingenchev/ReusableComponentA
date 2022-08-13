@@ -1,13 +1,15 @@
 {
-  "name": "mg-reusable-component",
-  "version": "v1.0.2",
-  "repository": "https://github.com/martingenchev/mg-reusable-component.git",
+  "name": "@mg-reusable-component",
+  "version": "v1.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martingenchev/mg-reusable-component.git"
+  },
   "author": "Martin Genchev",
   "license": "MIT",
   "main": "src/modules.js",
   "scripts": {
-    "postinstall": "yarn link && yarn link componentA",
-    "dev": "yarn nuxt dev examples/with-nuxt"
+    "build": "echo No build needed for this repo as its a dependency"
   },
   "devDependencies": {
     "nuxt": "^2.14.1"
